@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
 
-  s.name            = 'logstash-codec-cloudtrail'
-  s.version         = '0.1.5'
+  s.name            = 'logstash-codec-cloudwatch-log-subscription'
+  s.version         = '0.1.7'
   s.licenses        = ['Apache License (2.0)']
-  s.summary         = "Process AWS CloudTrail formatted messages"
+  s.summary         = "Process AWS CloudWatch Logs formatted messages"
   s.description     = "This gem is a logstash plugin required to be installed on top of the Logstash core pipeline using $LS_HOME/bin/plugin install gemname. This gem is not a stand-alone program"
-  s.authors         = ["Elastic"]
-  s.email           = 'info@elastic.co'
+  s.authors         = ["Laurence MacGuire"]
+  s.email           = 'leprechaun@gmail.co'
   s.homepage        = "http://www.elastic.co/guide/en/logstash/current/index.html"
   s.require_paths = ["lib"]
 
